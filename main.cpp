@@ -32,7 +32,7 @@ void showProducts(){
 
 int main(int argc, char** argv) {
 	int option=1;
-/*	while(option != 7){
+	while(option != 7){
 		cout<< "Choose Option:\n";
 		cout<< "1. Show All Products:\n";
 		cout<< "2. Find Product:\n";
@@ -68,7 +68,7 @@ int main(int argc, char** argv) {
 		}				
 	}
 	
-	*/
+	
 		acceptProducts();
 		showProducts();
 	return 0;
